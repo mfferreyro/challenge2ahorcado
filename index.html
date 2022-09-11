@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado - Challenge 2</title>
+    <link href="http://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" >
+       
+    
+</head>
+<header>
+    <div class="h1">
+        <h2>El juego del ahorcado </h2>
+    </div>      
+    
+   </header>
+
+   <section> 
+          <div class="inicio">
+             <input class="btn-iniciar" type="submit" value="Iniciar Juego" id="iniciar-juego" onclick="iniciarJuego()">
+                         </div>
+  
+    </section>
+
+ <div id="div-aparece-ahorcado" class="canvas">
+   <canvas id="pantalla" width="960px" height="450px"> 
+    </canvas>
+    
+    <button id="boton" type="reset" onclick="javascript:window.location.reload();">Volver a Jugar</button>
+</div>
+
+        <footer>
+            
+            <div class="autor">
+                <p> <strong>  by FlorFerreyro </strong> </p>
+                <p> <strong> Challenge 2-Alura Latam 2022 </strong> </p>
+            </div>
+                
+        </footer>        
+
+<script src="script.js"> </script>
+
+    </body>
+</html>
